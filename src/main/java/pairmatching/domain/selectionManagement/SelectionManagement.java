@@ -1,4 +1,4 @@
-package pairmatching.domain.SelectionManagement;
+package pairmatching.domain.selectionManagement;
 
 import pairmatching.view.InputView;
 

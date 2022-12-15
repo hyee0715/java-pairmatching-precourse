@@ -1,4 +1,4 @@
-package pairmatching.domain.SelectionManagement;
+package pairmatching.domain.selectionManagement;
 
 public class FunctionSelectionValidator {
     private static final String EMPTY_FUNCTION_SELECTION_ERROR_MESSAGE = "[ERROR] 기능 선택 번호가 입력되지 않았습니다.";

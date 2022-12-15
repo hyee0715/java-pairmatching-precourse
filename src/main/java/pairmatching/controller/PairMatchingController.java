@@ -1,6 +1,6 @@
 package pairmatching.controller;
 
-import pairmatching.domain.SelectionManagement.SelectionManagement;
+import pairmatching.domain.selectionManagement.SelectionManagement;
 
 public class PairMatchingController {
     public void run() {
