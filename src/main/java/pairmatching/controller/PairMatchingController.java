@@ -1,10 +1,13 @@
 package pairmatching.controller;
 
 import pairmatching.domain.selectionManagement.SelectionManagement;
+import pairmatching.view.OutputView;
 
 public class PairMatchingController {
     public void run() {
         String functionSelection = SelectionManagement.getFunctionSelection();
-        System.out.println(functionSelection);
+
+        OutputView outputView = new OutputView();
+        outputView.printCourseAndMission();
     }
 }
