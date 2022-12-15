@@ -5,9 +5,19 @@ import pairmatching.view.OutputView;
 
 public class PairMatchingController {
     public void run() {
-        String functionSelection = SelectionManagement.getFunctionSelection();
+        selectFunction();
 
+        selectCourseAndMission();
+    }
+
+    public void selectFunction() {
+        String functionSelection = SelectionManagement.getFunctionSelection();
+    }
+
+    public void selectCourseAndMission() {
         OutputView outputView = new OutputView();
         outputView.printCourseAndMission();
+
+        String courseMission = SelectionManagement.getCourseMissionSelection();
     }
 }
