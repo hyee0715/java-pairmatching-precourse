@@ -22,6 +22,12 @@ public class SelectionManagement {
         InputView inputView = new InputView();
         String courseMissionSelection = inputView.readCourseMissionSelection();
 
-        return courseMissionSelection;
+        try {
+            CourseMissionValidator.validate(courseMissionSelection);
+            return courseMissionSelection;
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage() + LINE_BREAK);
+            return getCourseMissionSelection();
+        }
     }
 }

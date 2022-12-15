@@ -1,7 +1,7 @@
 package pairmatching.domain.mission;
 
 public enum Level {
-    LEVEL1("레벨1", new String[] {"자동차 경주", "로또", "숫자야구게임"}),
+    LEVEL1("레벨1", new String[] {"자동차경주", "로또", "숫자야구게임"}),
     LEVEL2("레벨2", new String[] {"장바구니", "결제", "지하철노선도"}),
     LEVEL3("레벨3", new String[] {}),
     LEVEL4("레벨4", new String[] {"성능개선", "배포"}),
